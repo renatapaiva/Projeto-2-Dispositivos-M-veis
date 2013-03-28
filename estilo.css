@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//pt-br" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Cadastro</title>
+</head>
+
+<style>
+.campos {
+	width: 350px;
+	height: 32px;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	font: 17px Arial, Verdana, Helvetica, sans-serif;
+	color: #444;
+	padding: 0 5px;
+}
+
+.campos2 {
+	width: 200px;
+	height: 32px;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	font: 17px Arial, Verdana, Helvetica, sans-serif;
+	color: #444;
+	padding: 0 5px;
+}
+</style>
+
+<body topmargin="0" leftmargin="0" rightmargin="0">
+<div align="center">
+<table width="370" border="0" cellpadding="0" style="border-style: 0px; border-collapse: collapse">
+<form name="form1" method="post" action="">
+  <tr>
+    <td align="center"><span style="font-size: 5pt"></span></td>
+  </tr>
+  <tr>
+    <td width="460" align="left" height="70" valign="top">
+		<p style="margin-top: 0; margin-bottom: 0">
+			<font face="Arial" color="#266B0A"><b>Nome:</b></font>
+			<font face="Arial" size="1" color="#808080"> (obrigatório)</font></p>
+		<p style="margin-top: 0; margin-bottom: 0">
+	<font size="3" face="Trebuchet MS">
+	<input name="nome1" size="59" maxlength="150" class='campos'></font></p>
+	<p style="margin-top: 0; margin-bottom: 0"></td>
+  </tr>
+  <tr>
+    <td width="460" align="left" height="70" valign="top">
+		<p style="margin-top: 0; margin-bottom: 0">
+			<font face="Arial" color="#266B0A"><b>Email:</b></font>
+			<font face="Arial" size="1" color="#808080"> (somente email válido)</font></p>
+		<p style="margin-top: 0; margin-bottom: 0">
+			<font size="3" face="Trebuchet MS">
+	<input name="email1" size="39" maxlength="150" class='campos'></font></p>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="460" align="left" height="70" valign="top">
+	<p style="margin-top: 0; margin-bottom: 0">
+	<font face="Arial" color="#266B0A"><b>Confirmar email:</b></font>
+	<font face="Arial" size="1" color="#808080"> (obrigatório)</font></p>
+	<p style="margin-top: 0; margin-bottom: 0">
+	<font size="3" face="Trebuchet MS">
+	<input name="cemail1" size="39" maxlength="150" class='campos'></font></p>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="460" align="left" height="70" valign="top">
+	<p style="margin-top: 0; margin-bottom: 0">
+	<font face="Arial" color="#266B0A"><b>Login:</b></font>
+	<font face="Arial" size="1" color="#808080"> (obrigatório)</font>
+	</p>
+	<p style="margin-top: 0; margin-bottom: 0">
+	<font size="3" face="Trebuchet MS">
+	<input name="login1" size="22" maxlength="20" onKeypress="if ((event.keyCode < 48) || (event.keyCode > 57 && event.keyCode < 65) || (event.keyCode > 91 && event.keyCode < 97) || (event.keyCode > 122) ) event.returnValue = false;" class='campos2'></font></p>
+	<p style="margin-top: 0; margin-bottom: 0"></td>
+  </tr>
+  <tr>
+    <td width="460" align="left" height="70" valign="top">
+	<p style="margin-top: 0; margin-bottom: 0">
+	<font face="Arial" color="#266B0A"><b>Senha:</b></font>
+	<font face="Arial" size="1" color="#808080"> (obrigatório)</font></p>
+	<p style="margin-top: 0; margin-bottom: 0">
+	<font size="3" face="Trebuchet MS">
+	<input name="senha1" type="password" size="22" maxlength="10" class='campos2'></font></p>
+	<p style="margin-top: 0; margin-bottom: 0">
+	<font size="1" face="Arial" color="#808080">(Somente letras, números, '.' e '_') 
+	Maiúsculas e minúsculas são diferenciadas.</font></td>
+  </tr>
+  <tr>
+    <td width="460" align="left" height="70" valign="top">
+	<p style="margin-top: 0; margin-bottom: 0">
+	<font face="Arial" color="#266B0A"><b>Confirmar senha:</b></font>
+	<font face="Arial" size="1" color="#808080"> (obrigatório)</font></p>
+	<p style="margin-top: 0; margin-bottom: 0">
+	<font size="3" face="Trebuchet MS">
+	<input name="csenha1" type="password" size="22" maxlength="10" class='campos2'></font></p>
+	<p style="margin-top: 0; margin-bottom: 0"></td>
+  </tr>
+  <tr valign="middle">
+    <td width="460" align="center" height="60" valign="middle">
+	<p style="margin-top: 0; margin-bottom: 0">
+	<font face="Trebuchet MS"><input type="image" src="v2/imagens/botaocadastrar.jpg" name="Submit" value="Cadastrar"></font></td>
+  </tr>
+  </form>
+</table>
+</div>
+</body>
+
+</html>
